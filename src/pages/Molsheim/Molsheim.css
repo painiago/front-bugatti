@@ -1,0 +1,301 @@
+@import url("https://use.typekit.net/jtg5uxq.css");
+@import url("https://use.typekit.net/vmn5sac.css");
+@import url("https://use.typekit.net/zer6fll.css");
+@import url(//db.onlinewebfonts.com/c/7ea415e0226088f3cb3eb8d24e9b28c6?family=FF+Zwo);
+
+/* FONT DANCINGSCRIPT */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+  --primary: black;
+  --secundary: #707070;
+  --third:#4d4d4d;
+  --section:#f5f5f5;
+  --font-primary:"FF Zwo";
+  --font-secundary: adobe-garamon-pro, italic;
+  --footer: #212529;
+}
+/* 
+div{
+  border: solid blue;
+} */
+
+
+body{
+  margin: 0 !;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+/* VIDEO CONFIG CAPA */
+
+.vid-molsh{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* parallax */
+.parallax-lax{
+  /* background-image: url(/src/assets/bugatti/Molsheim/10.jpg); */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-backcground-size: cover;
+
+}
+section.parallax-lax{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.parallax-lax-2{
+  background-image: url(/src/assets/bugatti/Molsheim/12.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-backcground-size: cover;
+}
+section.parallax-lax-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+
+
+/* TEXTOS ESTILIZAÇÃO */
+@media (max-width:960px) {
+  .h1-name-molsheim{
+    font-size: 4em !important;
+  }
+}
+
+
+.h1-name-molsheim{
+  color: rgb(0, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 5.0em;
+  color: var(--primary);
+  margin-top:-15px;
+}
+
+@media (max-width:960px) {
+  .h2-name-molsheim{
+    font-size: 3em !important;
+  }
+  
+}
+
+.h2-name-molsheim{
+  color: rgb(0, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 4.0em;
+  color: var(--primary);
+  margin-top:-15px;
+}
+
+@media (max-width:960px) {
+  .h2-molsheim{
+    font-size: 2.5em !important;
+  }
+}
+.h2-molsheim{
+  color: black ;
+  font-size: 55px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+.txt-italic{
+  color: var(--secundary);
+  font-style:italic;
+  font-family: var(--font-secundary);
+}
+.h2-principal{
+  color: black ;
+  font-size: 25px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+.p-principal{
+  line-height: 25px;
+  font-size: 17px;
+  color: var(--secundary);
+  font-family: var(--font-primary);
+  
+}
+.h2-experience{
+  font-family: var(--font-primary);
+  font-size: 40px;
+  text-align: center;
+  color: var(--primary);
+}
+
+/* MARGENS */
+.mt-only-molsheim{
+  margin-top: 120px !important;
+  background-color: white;
+}
+.mt-molsheim{
+  margin-top: 100px !important;
+  
+}
+
+.ml_molsheim{
+  margin-left: -100px !important;
+}
+
+/* ---------- */
+
+.slidercolor-molsheim{
+  margin-left: -15px;
+  margin-right: -12px;
+  background-color: white;
+}
+
+/* CONTAINER */
+.container-1{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+/* CLASSE IMG POST FABRICA */
+.img-molsheim-fabrica{
+  width: 690px !important;
+}
+.img-molsheim-fabrica-1{
+  width: 690px !important;
+}
+
+/* ----------- */
+/* IMG SUD LARGE FOTO */
+
+.img-molsheim-sud{
+  width: 100% !important;
+}
+/* -------------------------- */
+
+/* CLASSE IMAGEM FLUID */
+
+.img-molsheim-large{
+  width: 100%;
+}
+
+.img-molsheim{
+  width: 675px;
+}
+.img-molsheim-sud{
+  width: 760px;
+ 
+}
+/* LINK MOLSHEIM */
+.link-molsheim-bugatti {
+  text-decoration: none;
+  color: black;
+ font-weight: 600;
+  position: relative;
+  
+}
+
+.link-molsheim-bugatti:hover{
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(24, 55, 255);
+}
+
+
+  /* Botão referência */
+
+  .card-referencia-molsheim{
+    width: 540px;
+    position: relative;
+    top: 0;
+    bottom: auto;
+    border: none;
+    box-shadow:  0px 0px 10px #bebebe !important;
+  }
+
+  /* ACCORDION */
+  .accordioon-molsheim {
+    background-color: #eee;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: var(--font-primary);
+    
+}
+  .active-molsheim, .accordioon-molsheim:hover {
+    background-color: var(--section);
+    border-left: 2px solid red; 
+  }
+  
+  .panel-x-molsheim {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255) !important;
+    border-left: 2px solid red;
+    transition: all .2 ease-in-out;
+   
+  }
+  #accordioon-items-molsheim{
+    position: relative !important;
+    display: flex !important;
+   
+  }
+  #caretleft-molsheim{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 5px;
+  }
+
+  /* Referência Molsheim */
+  .ppv-molsheim{
+    color: black;
+    font-weight: 600;
+  }
+  /* MARGEM BOTTOM REFERENCIA */
+  #marg-mb-molsheim{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 50px;
+  }
+
+  /* ---------- */
+  .ref-no-none-molsheim{
+    text-decoration: none;
+  }
+  .ref-no-none-molsheim:hover{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+  }

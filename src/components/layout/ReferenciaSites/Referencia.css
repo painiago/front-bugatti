@@ -1,0 +1,116 @@
+/* div{
+  border: 1px solid blue;
+} */
+
+/* CARD  */
+@media (max-width:960px) {
+  .card{
+      margin-bottom: 50px !important;
+  }
+}
+.card {
+  width: 540px !important;
+  height: 200px !important;
+  position: relative !important;
+  border-radius: 10px !important;
+
+  border: none !important;
+  border-radius: 2px !important;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe ,
+               -20px -20px 60px #ffffff !important;
+  }
+#ref{
+  position: relative;
+  margin-right: 26rem;
+  display: flex !important;
+  align-items: start !important;
+  justify-content: start !important;
+}
+
+  .card:hover{
+    background: rgb(227, 224, 224) !important;
+    transition: all 5s ease-in-out !important;
+  }
+  /* logo bugatti */
+  .lg-bugatti::before{
+    color: white !important;
+  }
+
+  .lg-bugatti{
+    width: 30px !important;
+  }
+
+  /* Botão referência */
+
+  .card-referencia{
+    width: 540px;
+    position: relative;
+    top: 0;
+    bottom: auto;
+    border: none;
+    box-shadow:  0px 0px 10px #bebebe !important;
+  }
+
+  /* ACCORDION */
+  .accordioon {
+    background-color: #eee;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: var(--font-primary);
+    
+}
+  .activee, .accordioon:hover {
+    background-color: var(--section);
+    border-left: 2px solid red; 
+  }
+  
+  .panel-x {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255) !important;
+    border-left: 2px solid red;
+    transition: all .2 ease-in-out;
+   
+  }
+  #accordioon-items{
+    position: relative !important;
+    display: flex !important;
+   
+  }
+  #caretleft{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 5px;
+  }
+
+  /* Referência Molsheim */
+  .ppv-molsheim{
+    color: black;
+    font-weight: 600;
+  }
+  /* MARGEM BOTTOM REFERENCIA */
+  #marg-mb{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 50px;
+  }
+
+  /* ---------- */
+  .ref-no-none{
+    text-decoration: none;
+  }
+  .ref-no-none:hover{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+  }

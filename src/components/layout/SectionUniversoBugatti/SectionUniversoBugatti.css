@@ -1,0 +1,62 @@
+/* div{
+  border: 1px solid blue;
+} */
+
+
+.mt-universo {
+  margin-top: 200px !important;
+  margin-bottom: 200px !important;
+}
+
+
+
+.life-St-no-hover{
+  width: 50%;
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+  
+} 
+.life-St-no-hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: var(--third);
+  border-bottom: solid 2px transparent;
+  width: auto;
+  transition: all .7s ease;
+
+}
+.life-St-no-hover:hover{
+  color: var(--secundary);
+  border-bottom: solid 1px var(--third);
+  text-decoration: none;
+  transition: all .7s ease;
+
+}
+
+/* Efeito Zoom */
+.ft-zoom{
+  overflow: hidden;
+}
+
+.ft-zoom img{
+  width: 100%;
+  transition: all .4s ease-in-out;
+  
+}
+.ft-zoom:hover  img{
+  transform: scale(1.1);
+  
+}
+
+/* RESPONSIVIDADE IMG */
+@media (max-width:960px) {
+  .ft-respon{
+    margin-top: 20px !important;
+  }
+  
+}

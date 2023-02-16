@@ -1,0 +1,43 @@
+.footercolor{
+  background-color: black !important;
+}
+.text-modify{
+  color: var(--secundary);
+  text-decoration: none;
+}
+.text-modify:hover{
+  color: white;
+  text-decoration: none;
+}
+.text-pv{
+  color: var(--secundary);
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+#backToTop{
+  position: absolute;
+  right: 70px;
+  border: 0;
+}
+
+@media screen {
+  #backToTop{
+    right: 25px;
+  }
+}
+
+@media (max-width:960px) {
+  #no-marge-footer{
+    margin-bottom: 0 !important;
+  }
+  #no-marge-footer2{
+    margin-bottom:  0 !important;
+  }
+  
+}
+
+
+/* div{
+  border: solid 1px blue;
+} */

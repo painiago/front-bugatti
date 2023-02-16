@@ -1,0 +1,27 @@
+/* div{
+  border: 1px solid blue;
+} */
+
+
+.mt-mol-1 {
+  margin-top: 160px !important;
+}
+.mt-mol {
+  margin-top: 6% !important;
+}
+
+.photo-efect{
+  width: 650px !important;
+}
+
+
+.font-style-molsheim{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3.0em;
+  color: var(--secundary);
+  text-indent: 2em;
+  margin-top:-15px;
+
+}

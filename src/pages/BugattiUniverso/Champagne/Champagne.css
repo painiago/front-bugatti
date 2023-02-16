@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+/* TEXT CONFIG */
+/* div{
+  border: 1px solid blue;
+} */
+
+
+@media (max-width:960px) {
+  #h2-respon{
+    
+  }
+  
+}
+@media (max-width:960px) {
+ #no-mb-respon{
+  margin-bottom: 0 !important;
+  margin-top: 30px !important;
+ } 
+}
+
+@media (max-width:960px) {
+  #mt-champ{
+    margin-top: 20px !important;
+    position: absolute !important;
+    width: 375px !important;
+
+  }
+  
+}
+.mt-champ{
+  margin-top: 180px !important;
+}
+.h2-champagne{
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  text-transform: none;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400 !important;
+  line-height: 1.2em;
+
+}
+@media  (max-width:960px) {
+  .h2-champagne{
+    font-size: 1.5em;
+    font-family: garamond,serif;
+    text-transform: none;
+    position: absolute;
+
+
+    
+  }
+  .champagne-mq{
+    left: -5px;
+  }
+}
+/* Welcome section */
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding:  0 20px;
+  
+  
+}
+.web{
+  top: 50px !important;
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--main-red);
+  font-family: var(--font-secundary);
+  font-style: italic !important;
+  
+}
+
+.text {
+  position: absolute;
+  z-index: 5;
+  height: 20%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.bg img {
+  display: block;
+  width: 100vmax;
+  object-fit: cover;
+}
+
+.welcome-section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#bgvid{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* CONFIGURAÇÃO BACKGROUND */
+.bg {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+.img-universe{
+  width: 600px !important;
+}
+
+
+@media (max-width:960px) {
+  #rp-champ{
+    margin-top: 120% !important;
+  }
+  
+}
+
+@media (max-width:960px) {
+  .mt-ch{
+    margin-top: 50% !important;
+  }
+}
+
+.img-universe2{
+  width: 675px !important;
+}
+
+.logo-champ-0{
+  height: 40px !important;
+  width: 200px !important;
+  max-width: 100% !important;
+  color: white !important;
+  position: relative;
+  top:-15%
+}
+
+.logo-champ{
+  height: 40px !important;
+  width: 200px !important;
+  max-width: 100% !important;
+  color: white !important;
+  position: relative;
+}
+.logo-bugatti{
+  height: 174px !important;
+  width: 174px !important;
+  max-width: 100% !important;
+  color: white !important;
+  position: relative;
+  
+  
+}
+
+.media-text{
+ 
+  -ms-flex-flow: wrap row;
+  flex-flow: wrap row;
+}
+
+.media-item{
+  display: flex;
+  flex-flow: wrap row;
+}
+
+/* PARALLAX */
+
+.parallax-universe{
+  background-image: url(/src/assets/bugatti/BugattiUniverse/champ2.jpg);
+  background-size: auto 100% !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-backcground-size: cover;
+  object-fit: contain;
+}
+section.parallax-universe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+/* parallax 2 */
+
+@media (max-width:960px) {
+  .parallax-universe-2 {
+    background: no-repeat center center url(/src/assets/bugatti/BugattiUniverse/Champagne/carbon.PNG) !important;
+    background-size: auto 80% !important;
+  }
+
+  
+}
+
+.parallax-universe-2{
+  background: no-repeat center/55% url(/src/assets/bugatti/BugattiUniverse/Champagne/carbon.PNG);
+  
+}
+section.parallax-universe-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+/* parallax 3 */
+@media (max-width:960px) {
+  .parallax-universe-3{
+    background: no-repeat 45% url(/src/assets/bugatti/BugattiUniverse/Champagne/champagne3.jpg) !important;
+
+  }
+}
+
+.parallax-universe-3{
+  background-image: url(/src/assets/bugatti/BugattiUniverse/Champagne/champagne3.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-backcground-size: cover;
+  object-fit: cover;
+}
+section.parallax-universe-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100% ;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+.universe{
+  width: 100%;
+  height:100vh;
+  object-fit: cover;
+  position: fixed;
+}
+
+
+/* CONFIG TEXTS */
+@media (max-width:960px) {
+  .h1-name-carbon {
+    font-size: 2.5rem !important;
+  }
+  
+}
+.h1-name-carbon{
+  color: rgb(255, 255, 255);
+  font-size: 66px;
+  line-height: 66px;
+  text-transform: uppercase;
+  
+}
+.h1-name-universe{
+  color: rgb(255, 255, 255);
+  font-size: 66px;
+  line-height: 66px;
+  text-transform: uppercase;
+  
+}
+
+
+/* ----- */
+.color-item{
+  background-color: black;
+}
+.text-item{
+  font-size: 15px;
+  margin: 0;
+  color: white;
+}
+

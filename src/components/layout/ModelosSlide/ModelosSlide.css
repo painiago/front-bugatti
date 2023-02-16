@@ -1,0 +1,72 @@
+.mt-only{
+  margin-top: 140px;
+}
+
+/* --------------- Swiper ---------------- */
+.brutal-modelos{
+  padding: 0px 0px 0px !important;
+  height: 25px;
+  font-family: var(--font-primary);
+  color: white;
+  font-size: 12px;
+  background-color: var(--secundary);
+}
+
+
+.swiper {
+  height: 400px;
+  max-width: 1360px;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(0, 0, 0);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* MODIFICANDO Swiper */
+.swiper-button-next{
+  color: var(--secundary);
+  margin-left: 1% !important;
+}
+
+.swiper-button-prev {
+  color: var(--secundary);
+  margin-left: 3% !important;
+
+}
+
+/* -------------------------------------- */
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--section);
+  margin-left: 0 !important;
+  padding: 0 !important;
+  margin-top: 140px;
+}

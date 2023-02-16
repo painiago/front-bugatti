@@ -1,0 +1,71 @@
+@import url("https://use.typekit.net/jtg5uxq.css");
+@import url("https://use.typekit.net/vmn5sac.css");
+@import url("https://use.typekit.net/zer6fll.css");
+@import url(//db.onlinewebfonts.com/c/7ea415e0226088f3cb3eb8d24e9b28c6?family=FF+Zwo);
+
+/* FONT DANCINGSCRIPT */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+/* div{
+  border: 1px solid blue;
+} */
+/* Estilizando Textos */
+.mt-pv-logo{
+  margin-top:70px !important;
+}
+.mt-pv{
+  margin-top: 50px !important;
+
+}
+.xx-h1{
+  color: rgb(0, 0, 0)  !important;
+  font-family: "FF Zwo" !important;
+  font-size: 30px;
+}
+.xx-1{
+  color: rgb(0, 0, 0)  !important;
+  font-family: "FF Zwo" !important;
+}
+
+
+/* CARD  */
+@media (max-width:960px) {
+  .card-logo{
+      margin-bottom: 50px !important;
+  }
+}
+.card-logo {
+  width: 100px !important;
+  height: 100px !important;
+  position: relative !important;
+
+  border: none !important;
+  border-radius: 50px !important;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe ,
+               -20px -20px 60px #ffffff !important;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+  }
+.ref{
+  position: relative;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.card-logo:hover{
+  background: rgb(158, 132, 132) !important;
+  transition: all 5s ease-in-out !important;
+  cursor: pointer;
+}
+  /* logo bugatti */
+.lg-bugatti::before{
+  color: white !important;
+}
+
+.lg-bugatti{
+  width: 30px !important;
+}

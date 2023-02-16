@@ -1,0 +1,67 @@
+/* div{
+  border: 1px solid blue;
+} */
+.section-fundo-color{
+  background-color: var(--section);
+}
+.margin-tp{
+  margin-top:140px;
+}
+.margin-bt{
+  margin-bottom: 140px;
+}
+
+/* CONFIGURAÇÃO SECTION ICONES E POSITIONS */
+
+/* ICONS */
+
+.motor-icon{
+  width: 50px;
+  height: 50px;
+  top: 0;
+  position: relative;
+}
+.transmissao-icon{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 5px;
+}
+.carro-icon{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 0;
+}
+.position-inline{
+  display: inline-block;
+  
+}
+
+.life-St-no-hover{
+  width: 50%;
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+  
+} 
+.life-St-no-hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: var(--third);
+  border-bottom: solid 2px transparent;
+  width: auto;
+  transition: all .7s ease;
+
+}
+.life-St-no-hover:hover{
+  color: var(--secundary);
+  border-bottom: solid 1px var(--third);
+  text-decoration: none;
+  transition: all .7s ease;
+
+}

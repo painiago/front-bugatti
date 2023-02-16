@@ -1,0 +1,178 @@
+/*  niveis de titulo */
+
+h1{
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+.h1-name{
+  font-size: 60px;
+}
+.h-social{
+  color: black;
+  font-size: 2.5em;
+  font-family: var(--font-primary);
+}
+.h2-name{
+  color: black;
+  font-size: 3em;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+.h3-name{
+  font-size: 1.5em;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  color: white;
+}
+
+h3{
+  font-size: 15px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+h5{
+  color: rgb(255, 255, 255);
+  
+}
+.h5-md{
+  font-size: 1.4em;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+.h5-name{
+  font-size: 15px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+.paris-1{
+  font-size: 16px;
+  margin: 0;
+  color: var(--secundary);
+  font-family: var(--font-third);
+  line-height: 25px;
+}
+.paris-2{
+  font-size: 12px;
+  margin: 0;
+  
+}
+.paris-3{
+  font-size: 28px;
+  color: var(--primary);
+}
+
+.font-1{
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  padding: 0;
+  color: var(--primary);
+  line-height: 1em;
+}
+.font-2{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.8em;
+  display: block;
+  color: var(--secundary);
+  text-indent: 2em;
+  margin-top:-15px;
+
+}
+.font-style1{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3.8em;
+  display: block;
+  color: var(--primary);
+  text-indent: 1em;
+  margin-top:-15px;
+}
+.font-mindset{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3em;
+  display: block;
+  color: var(--primary);
+  text-indent: 1em;
+  margin-top:-15px;
+}
+.font-favorite{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 4em;
+  display: block;
+  color: var(--primary);
+  text-indent: 0;
+  margin-top:-15px;
+}
+.font-style2{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3.8em;
+  display: block;
+  color: var(--secundary);
+  text-indent: 2em;
+  margin-top:-15px;
+
+}
+#spaceText {
+  font-size: 25px;
+  color: #fff;
+  
+}
+.font-text {
+  font-size: 0.6em;
+  margin: 0;
+  color: var(--third);
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  
+}
+.font-text-footer {
+  font-size: 0.9em;
+  margin: 0;
+  color: var(--third);
+  font-family: var(--font-primary);  
+}
+
+.paragrafos-p{
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style:italic;
+  font-size: 1.2em;
+  padding: 0;
+  color: var(--white);
+  line-height: 25px;
+  
+}
+
+.font-1-relogio{
+  font-family: var(--font-secundary) ;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  padding: 0;
+  color: var(--primary);
+  line-height: 1em;
+  text-indent: 2em;
+}
+.font-2-relogio{
+  font-family: adobe-garamond-pro,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 4.0em;
+  color: var(--primary);
+  margin-top:-15px;
+
+}
