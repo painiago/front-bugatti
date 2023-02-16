@@ -2,7 +2,7 @@
   "name": "site-bugatti-front",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://painiago.github.io/Bugatti/",
+  "homepage": "https://painiago.github.io/front-bugatti/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
