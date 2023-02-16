@@ -2,7 +2,7 @@
   "name": "site-bugatti-front",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://painiago.github.io/front-bugatti/",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scroll": "^1.8.8",
+    "rollup-plugin-visualizer": "^5.9.0",
     "save": "^2.9.0",
     "style-components": "^0.1.0",
     "swiper": "^8.4.6",
