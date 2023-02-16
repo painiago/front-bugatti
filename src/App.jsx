@@ -7,6 +7,11 @@ import {BrowserRouter, Router, Routes,Route } from 'react-router-dom'
 
 // STYLE
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import 'bootstrap';
+import  'bootstrap/dist/css/bootstrap.min.css';
+import "swiper/css/bundle";
 
 
 // PAGES
@@ -18,7 +23,11 @@ import Champagne from './pages/BugattiUniverso/Champagne/Champagne';
 import Relogio from './pages/BugattiUniverso/Relogio/Relogio';
 import PoliticaPrivacidade from './pages/PoliticaPrivacidade/PoliticaPrivacidade';
 
-
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+  )
 function App () {
 return (
   <div id="header" className="App">
