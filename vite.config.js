@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/dist/',
+  base: '/front-bugatti/',
   plugins: [react()],
   esbuild: {
     loader: 'jsx',
@@ -12,12 +12,8 @@ export default defineConfig({
   optimizeDeps: {
     esbuildOptions: {
       loader: {
-        '.js': '.jsx',
+        '.js': 'jsx',
       },
-      extensions:[
-        '.js',
-        ".jsx"
-      ],
     },
   },
 })
