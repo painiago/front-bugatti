@@ -1,22 +1,22 @@
 // NAVEGAÇAO
-import Navbar from '/src/components/layout/Navbar/Navbar';
+import Navbar from './components/layout/Navbar/Navbar';
 
 // Router
 import {BrowserRouter, Router, Routes,Route } from 'react-router-dom'
 
 
 // STYLE
-import '/src/App.css';
+import './App.css';
 
 
 // PAGES
-import Home from '/src/pages/Home/Home';
-import LifeStyle from '/src/pages/LifeStyle/LifeStyle.jsx';
-import Modelos from '/src/pages/Modelos/Modelos';
-import Molsheim from '/src/pages/Molsheim/Molsheim';
-import Champagne from '/src/pages/BugattiUniverso/Champagne/Champagne';
-import Relogio from '/src/pages/BugattiUniverso/Relogio/Relogio';
-import PoliticaPrivacidade from '/src/pages/PoliticaPrivacidade/PoliticaPrivacidade';
+import Home from './pages/Home/Home';
+import LifeStyle from './pages/LifeStyle/LifeStyle.jsx';
+import Modelos from './pages/Modelos/Modelos';
+import Molsheim from './pages/Molsheim/Molsheim';
+import Champagne from './pages/BugattiUniverso/Champagne/Champagne';
+import Relogio from './pages/BugattiUniverso/Relogio/Relogio';
+import PoliticaPrivacidade from './pages/PoliticaPrivacidade/PoliticaPrivacidade';
 
 
 function App () {
