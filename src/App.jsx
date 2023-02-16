@@ -34,6 +34,7 @@ return (
           <Route path="/PoliticaPrivacidade" element={<PoliticaPrivacidade />} />
         </Routes>
         </BrowserRouter>
+        
     </div>
 );
 

@@ -3,7 +3,6 @@ import React from 'react';
 // NAVEGAÇAO
 
 // STYLE
-import '/src/App.css';
 import '/src/pages/Home/Home.css';
 
 import Header from '/src/components/layout/Header/Header';
@@ -21,7 +20,7 @@ import CookieService from '/src/client/Cookie/CookieService';
 
 // hotjar.identify('USER_ID', { userProperty: '3357688' });
 
-function App () {
+function Home () {
 return (
   <>
      <Header/>
@@ -36,7 +35,7 @@ return (
 );
 
 }
-export default App;
+export default Home;
 
 
 
