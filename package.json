@@ -2,7 +2,6 @@
   "name": "site-bugatti-front",
   "private": true,
   "version": "0.1.0",
-  "homepage": "/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -21,6 +20,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "dist": "^0.1.2",
+    "express": "^4.18.2",
     "nodejs": "^0.0.0",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.14.3",
