@@ -41,8 +41,8 @@ onSwiper={(swiper) => console.log(swiper)}
 <SwiperSlide><img src="/src/assets/bugatti/3.jpg" alt="" /></SwiperSlide>
 <SwiperSlide><img src="/src/assets/bugatti/mistral.jpg" alt="" /></SwiperSlide>
 <SwiperSlide><img src="/src/assets/bugatti/6.jpg" alt="" /></SwiperSlide>
-    <div class="swiper-button-next-2"></div>
-    <div class="swiper-button-prev-2"></div>
+    <div className="swiper-button-next-2"></div>
+    <div className="swiper-button-prev-2"></div>
 </Swiper>  
     </div>
   </div>

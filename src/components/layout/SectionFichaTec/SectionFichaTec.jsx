@@ -37,14 +37,7 @@ function SectionFichaTec (){
         </div>
       </div>
     </div>
-    {/* <div className="container ">
-        <div className="col  text-center mt-3"> 
-          <a href="#" className='life-St-no-hover'>VER MAIS 
-          <img className='ml-2 mb-1' src="/src/assets/proximo.png"  width="15px" height="auto" lt="proximo" />
-          </a> 
-          </div> 
-      </div> */}
-   
+
 
                   {/* BUGATTI DIVO */}
   <section className='margin-tp'>

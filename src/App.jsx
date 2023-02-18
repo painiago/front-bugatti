@@ -11,7 +11,7 @@ import '/src/App.css';
 
 // PAGES
 import Home from './pages/Home/Home';
-import LifeStyle from './pages/LifeStyle/LifeStyle.jsx';
+import LifeStyle from './pages/LifeStyle/LifeStyle';
 import Modelos from './pages/Modelos/Modelos';
 import Molsheim from './pages/Molsheim/Molsheim';
 import Champagne from './pages/BugattiUniverso/Champagne/Champagne';

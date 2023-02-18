@@ -46,7 +46,7 @@ function BugattiUniverso() {
             </header>
           </div>
           <div className="col-md-6 media-item">
-            <img src={Champagne} class="img-fluid img-universe" alt="Imagem responsiva" />
+            <img src={Champagne} className="img-fluid img-universe" alt="Imagem responsiva" />
           </div>
         </div>
       </section>
@@ -56,7 +56,7 @@ function BugattiUniverso() {
       <section className="container-xxl zero-padding">
         <div className="row">
           <div className="col media-item">
-          <img src={Champagne2} align="left" class="img-fluid img-universe2 mt-ch" alt="Imagem responsiva" />
+          <img src={Champagne2} align="left" className="img-fluid img-universe2 mt-ch" alt="Imagem responsiva" />
             <header className='mt-champ mb-5 col' id='mt-champ'>
               <h2 className='font-mindset text-center' >
                 <span>La bouteille sur mesure </span>
@@ -94,7 +94,7 @@ function BugattiUniverso() {
                 </p>
               </div>
             </header>
-            <img src={Carbon3B01} class="img-fluid img-universe2" id='no-mb-respon' alt="Imagem responsiva" />
+            <img src={Carbon3B01} className="img-fluid img-universe2" id='no-mb-respon' alt="Imagem responsiva" />
           </div>
         </div>
       </section>
@@ -104,7 +104,7 @@ function BugattiUniverso() {
 <section className="container-xxl zero-padding">
         <div className="row">
           <div className="col media-item"  >
-            <img src={Carbon3B02} class="img-fluid img-universe2" id='rp-champ' alt="Imagem responsiva" />
+            <img src={Carbon3B02} className="img-fluid img-universe2" id='rp-champ' alt="Imagem responsiva" />
 
             <header className='mt-5 mb-5 col' id='mt-champ'>
               <h2 className=' font-mindset text-center'  >
@@ -149,7 +149,7 @@ function BugattiUniverso() {
                 </p>
               </div>
             </header>
-            <img src={CarbonChamp} class="img-fluid img-universe2" alt="Imagem responsiva" />
+            <img src={CarbonChamp} className="img-fluid img-universe2" alt="Imagem responsiva" />
 
           </div>
         </div>
@@ -163,7 +163,7 @@ function BugattiUniverso() {
                 <h2 className='d-inline font-mindset ' >
                   <span>La bouteille sur mesure </span>
                 </h2>
-                <img src={LogoChamp} class="img-fluid logo-champ-0 rounded mx-auto d-block" alt="Imagem responsiva" />
+                <img src={LogoChamp} className="img-fluid logo-champ-0 rounded mx-auto d-block" alt="Imagem responsiva" />
 
                 <div className="col">
                   <p className='text-item text-justify paris-1'>
@@ -207,10 +207,10 @@ function BugattiUniverso() {
                 <div className="container">
                   <div className="row align-items-center ">
                     <div className="col-md-6  align-items-center ">
-                      <img src={LogoChamp} class="img-fluid logo-champ rounded mx-auto d-block" alt="Imagem responsiva" />
+                      <img src={LogoChamp} className="img-fluid logo-champ rounded mx-auto d-block" alt="Imagem responsiva" />
                     </div>
                     <div className="col-md-6 align-items-center">
-                      <img src={LogoBugatti} class="img-fluid logo-bugatti rounded mx-auto d-block" alt="Imagem responsiva" />
+                      <img src={LogoBugatti} className="img-fluid logo-bugatti rounded mx-auto d-block" alt="Imagem responsiva" />
                     </div>
                   </div>
                 </div>

@@ -6,7 +6,7 @@ function SectionLifeStyle() {
     <section className='welcome-section-xx '>
       <div className="container-xxl zero-padding">
           <h2 id="lifestyle" className='h2-name text-center mb-5' > LIFESTYLE</h2>
-          <img src="/src/assets/bugatti/14.jpg" align="left" class="img-fluid img-fluid-1" alt="Imagem responsiva" />
+          <img src="/src/assets/bugatti/14.jpg" align="left" className="img-fluid img-fluid-1" alt="Imagem responsiva" />
         <div className="row" >
           <div className="col-md-11 mt-descri">
           <h3 className='paris-1 text-center mt-3' >PARIS, 25 SEPTEMBER 2022</h3>
@@ -29,10 +29,10 @@ function SectionLifeStyle() {
       <section className='container-xxl zero-padding mb-5 '>
         <div className="row mt-5">
           <div className="col">
-            <img src="/src/assets/bugatti/22.jpg" align="right" class=" img-fluid img-fl" alt="Imagem responsiva" />
+            <img src="/src/assets/bugatti/22.jpg" align="right" className=" img-fluid img-fl" alt="Imagem responsiva" />
             <div className='mt-5 text-center ' >
-              <p class="font-1 ">Elf-discipline</p>
-              <p class="font-2 d-inline text-center">is a key to success!</p>
+              <p className="font-1 ">Elf-discipline</p>
+              <p className="font-2 d-inline text-center">is a key to success!</p>
             </div>
             <div className='text-center mt-3'>
               <div className="col-md-6" >

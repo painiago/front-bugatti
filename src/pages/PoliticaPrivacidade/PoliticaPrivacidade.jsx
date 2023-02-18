@@ -29,7 +29,7 @@ function PoliticaPrivacidade() {
               com o responsável pela aba de contato.</p>
             <p>Esclareceremos como é feita a coleta de dados pessoais.</p>
             <h5 className='xx-1 icon-user' >
-              <i class="fa-solid fa-user"></i> Dados de visitantes </h5>
+              <i className="fa-solid fa-user"></i> Dados de visitantes </h5>
             <p> &bull; Não coletamos dados de contato. Nome, sobrenome,
               número de telefone, cidade, estado, endereço de e-mail.</p>
             <h5 className='xx-1'><FontAwesomeIcon icon={faGlobe} /> Navegação geral no site </h5>

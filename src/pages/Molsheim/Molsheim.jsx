@@ -43,7 +43,7 @@ function Moshelim() {
               <header>
                 <h2 id="lifestyle" className='h2-molsheim mb-4 ml-5' >CASA MOLSHEIM</h2>
               </header>
-              <img src="/src/assets/bugatti/Molsheim/2.jpg" align="right" class="img-fluid img-molsheim ml-5" alt="Imagem responsiva" />
+              <img src="/src/assets/bugatti/Molsheim/2.jpg" align="right" className="img-fluid img-molsheim ml-5" alt="Imagem responsiva" />
               <div className="col">
                 <div className="row">
                   <p className='d-inline p-principal text-justify' >
@@ -64,7 +64,7 @@ function Moshelim() {
         <div className='container-xxl zero-padding mb-5 '>
           <div className="row">
             <div className="mb-2 ">
-              <img src="/src/assets/bugatti/Molsheim/11.jpg" align="left" class="img-fluid img-molsheim" alt="Imagem responsiva" />
+              <img src="/src/assets/bugatti/Molsheim/11.jpg" align="left" className="img-fluid img-molsheim" alt="Imagem responsiva" />
               <div className="col mt-5">
                 <div className="row">
                   <p className='p-principal  text-justify ' >
@@ -88,7 +88,7 @@ function Moshelim() {
         <div className='container-xxl zero-padding mb-5'>
           <div className="row">
             <div className=" mb-2">
-              <img src="/src/assets/bugatti/Molsheim/6.jpg" align="right" class="img-fluid img-molsheim" alt="Imagem responsiva" />
+              <img src="/src/assets/bugatti/Molsheim/6.jpg" align="right" className="img-fluid img-molsheim" alt="Imagem responsiva" />
               <div className="col mt-molsheim">
                 <header>
                   <h2 className='h2-principal text-center'>Remise Nord bugatti - Clássicos</h2>
@@ -123,7 +123,7 @@ function Moshelim() {
         <div className='container-xxl zero-padding mb-5'>
           <div className="row">
             <div className=" mb-2 ">
-              <img src="/src/assets/bugatti/Molsheim/b41r.png" align="right" class="img-fluid img-molsheim" alt="Imagem responsiva" />
+              <img src="/src/assets/bugatti/Molsheim/b41r.png" align="right" className="img-fluid img-molsheim" alt="Imagem responsiva" />
               <div className="col">
                 <header>
                   <h2 className='h2-principal text-center'>1930 Bugatti Tipo 41 Royale</h2>
@@ -159,7 +159,7 @@ function Moshelim() {
       <div className='container-xxl zero-padding mb-5 mt-molsheim'>
         <div className="row">
           <div className=" mb-2 ">
-            <img src="/src/assets/bugatti/Molsheim/1.jpg" align="right" class="img-fluid img-molsheim" alt="Imagem responsiva" />
+            <img src="/src/assets/bugatti/Molsheim/1.jpg" align="right" className="img-fluid img-molsheim" alt="Imagem responsiva" />
             <div className="col">
               <header>
                 <h2 className='h2-principal text-center'>A Marca Bugatti</h2>
@@ -185,7 +185,7 @@ function Moshelim() {
             <header>
               <h2 className='h2-principal text-center'> Fábrica da Bugatti em Molsheim </h2>
             </header>
-            <img src="/src/assets/bugatti/Molsheim/capamolsheim.jpg" align="right" class="img-fluid img-molsheim-large" alt="Imagem responsiva" />
+            <img src="/src/assets/bugatti/Molsheim/capamolsheim.jpg" align="right" className="img-fluid img-molsheim-large" alt="Imagem responsiva" />
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@ function Moshelim() {
       <div className="container-xxl zero-padding mt-3">
         <div className="row">
           <div className="col">
-            <img src="/src/assets/bugatti/Molsheim/atelie.jpg" class="img-fluid img-molsheim-fabrica-1 mb-3" alt="Imagem responsiva" />
+            <img src="/src/assets/bugatti/Molsheim/atelie.jpg" className="img-fluid img-molsheim-fabrica-1 mb-3" alt="Imagem responsiva" />
             <p className='ml-2 p-principal text-justify' >
               Conhecida como Ateliê, a fabrica da Bugatti localizada
               na Alsácia, lar onde a marca foi fundada em 1909. Local
@@ -205,7 +205,7 @@ function Moshelim() {
             </p>
           </div>
           <div className="col">
-            <img src="/src/assets/bugatti/Molsheim/fabrica.jpg" class="img-fluid img-molsheim-fabrica" alt="Imagem responsiva" />
+            <img src="/src/assets/bugatti/Molsheim/fabrica.jpg" className="img-fluid img-molsheim-fabrica" alt="Imagem responsiva" />
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@ function Moshelim() {
       <div className='container-xxl zero-padding mt-5'>
         <div className="row">
           <div className="">
-            <img src="/src/assets/bugatti/Molsheim/Remise-Sud-8.jpg" align="right" class="img-fluid img-molsheim" alt="Imagem responsiva" />
+            <img src="/src/assets/bugatti/Molsheim/Remise-Sud-8.jpg" align="right" className="img-fluid img-molsheim" alt="Imagem responsiva" />
             <div className="col mt-molsheim">
               <header>
                 <h2 className='h2-principal text-center'>Remise Sud </h2>
@@ -232,7 +232,7 @@ function Moshelim() {
       </div>
       <section className='container-xxl zero-padding mb-5'>
         <div className="">
-          <img src="/src/assets/bugatti/Molsheim/5.jpg" class="img-fluid img-molsheim-sud" alt="Imagem responsiva" />
+          <img src="/src/assets/bugatti/Molsheim/5.jpg" className="img-fluid img-molsheim-sud" alt="Imagem responsiva" />
         </div>
       </section>
       <div className="container">
@@ -243,7 +243,7 @@ function Moshelim() {
         <div className="col d-flex justify-content-center">
                 <div className="card-referencia-molsheim">
                 <>
-                  <button class="accordioon-molsheim">
+                  <button className="accordioon-molsheim">
                   <div id='accordioon-items-molsheim'>
                     <div className='col'>
                     <FontAwesomeIcon icon={faGlobe} /> Referência
@@ -253,7 +253,7 @@ function Moshelim() {
                     </div>
                   </button>
                   </>
-                  <div class="panel-x-molsheim">
+                  <div className="panel-x-molsheim">
                        <p><span className='ppv-molsheim'> MOLSHEIM EXPERIENCE,</span> 
                        <a href="https://www.bugatti.com/brand/molsheim-experience/" className='ref-no-none-molsheim' target="_blank"> https://www.bugatti.com/brand/molsheim-experience/
                        </a>

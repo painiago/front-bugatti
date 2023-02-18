@@ -105,7 +105,7 @@ function Modelos() {
             </div>
             <div className="row ">
               <div className="col-md-6 ">
-                <img src={dBugatti} align="right" class="img-fluid img-modelos " alt="Imagem responsiva" />
+                <img src={dBugatti} align="right" className="img-fluid img-modelos " alt="Imagem responsiva" />
               </div>
               <div className="col-md-6 p-5 back-color ">
                 <div id='card-modelos' className='rounded mx-auto d-block'>
@@ -118,7 +118,7 @@ function Modelos() {
                   para o desempenho o tornam uma obra-prima única de arte,
                   forma e técnica, que ultrapassa os limites da imaginação.
                   A BUGATTI deve seu caráter distinto a uma família de artistas
-                  e engenheiros e sempre se esforçou para oferecer o
+                  e engenheiros e sempre se esforçou para oferecer os
                   extraordinário, o incomparável, o melhor. Cada elemento do
                   CHIRON é uma combinação de reminiscência de sua história e
                   da tecnologia mais inovadora. O resultado é uma criação única
@@ -147,25 +147,25 @@ function Modelos() {
       >
         <div className="storage-image-container">
           <SwiperSlide>
-            <img src={ImgInteriorPrincipal} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorPrincipal} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ImgInteriorBlack} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorBlack} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ImgInteriorBlue} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorBlue} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ImgInteriorYellow} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorYellow} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ImgInteriorRed} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorRed} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ImgInteriorBlue2} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorBlue2} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ImgInteriorRed2} class="img-interior" id='img-interior' alt="Imagem responsiva" />
+            <img src={ImgInteriorRed2} className="img-interior" id='img-interior' alt="Imagem responsiva" />
           </SwiperSlide>
         </div>
       </Swiper>
@@ -181,10 +181,10 @@ function Modelos() {
               <div className="col mb-2">
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiperxt" id="mySwiperxt">
                   <SwiperSlide>
-                    <img src={ChironSuper} align="left" class="img-fluid chiron-300 rd-img " alt="Imagem responsiva" />
+                    <img src={ChironSuper} align="left" className="img-fluid chiron-300 rd-img " alt="Imagem responsiva" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={ChironSuper2} align="left" class="img-fluid chiron-300 rd-img  " alt="Imagem responsiva" />
+                    <img src={ChironSuper2} align="left" className="img-fluid chiron-300 rd-img  " alt="Imagem responsiva" />
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -213,10 +213,10 @@ function Modelos() {
                 <h2 id="lifestyle" className='h2-name-2 animacao-scroll' ></h2>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiperxt" id="mySwiperxt">
                   <SwiperSlide>
-                    <img src={ChironPurSport} align="left" class="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
+                    <img src={ChironPurSport} align="left" className="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={ChironPurSport2} align="left" class="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
+                    <img src={ChironPurSport2} align="left" className="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -244,10 +244,10 @@ function Modelos() {
                 <h2 id="lifestyle" className='h2-name-2 animacao-scroll' ></h2>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiperxt" id="mySwiperxt" >
                   <SwiperSlide>
-                    <img src={ChironSportRed2} align="left" class="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
+                    <img src={ChironSportRed2} align="left" className="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={ChironSportRed} align="left" class="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
+                    <img src={ChironSportRed} align="left" className="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -275,10 +275,10 @@ function Modelos() {
                 <h2 id="lifestyle" className='h2-name-2 animacao-scroll' ></h2>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiperxt" id="mySwiperxt">
                   <SwiperSlide>
-                    <img src={ChironN} align="left" class="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
+                    <img src={ChironN} align="left" className="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={ChironN2} align="left" class="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
+                    <img src={ChironN2} align="left" className="img-fluid chiron-300 rd-img" alt="Imagem responsiva" />
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -309,7 +309,7 @@ function Modelos() {
           <div className="row ">
             <div className="col">
               <h2 id="lifestyle" className='h2-name-2 animacao-scroll' ></h2>
-              <img src="/src/assets/bugatti/Modelos/SuperSport300/Frente300.jpg" data-aos="fade-right" data-aos-duration="1000" align="left" class="img-fluid wd-chiron" alt="Imagem responsiva" />
+              <img src="/src/assets/bugatti/Modelos/SuperSport300/Frente300.jpg" data-aos="fade-right" data-aos-duration="1000" align="left" className="img-fluid wd-chiron" alt="Imagem responsiva" />
               <div className="row " >
                 <div className="col ">
                   <h3 className=' paris-1-2  mb-3 text-center' >CHIRON SUPER SPORT 300+</h3>
@@ -339,7 +339,7 @@ function Modelos() {
           <div className='container'>
             <div className="row">
               <div className="col  mt-5 mb-5">
-                <img src="/src/assets/bugatti/Modelos/SuperSport300/ChironLegends.jpg" align="right" class="img-fluid chiron-300" alt="Imagem responsiva" />
+                <img src="/src/assets/bugatti/Modelos/SuperSport300/ChironLegends.jpg" align="right" className="img-fluid chiron-300" alt="Imagem responsiva" />
                 <div className="row ">
                   <div className="col">
                     <h3 className=' paris-1-2  mb-3' >Chiron <span className='les-legend'>Les Légends Du Ciel</span></h3>
