@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "main": "src/main.jsx",
-  "homepage": "https://painiago.github.io/site-bugatti-front/",
+  "homepage": ".",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
