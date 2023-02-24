@@ -29,6 +29,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scroll": "^1.8.8",
+    "resolve-path": "^1.4.0",
     "rollup-plugin-visualizer": "^5.9.0",
     "save": "^2.9.0",
     "style-components": "^0.1.0",
