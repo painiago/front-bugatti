@@ -6,9 +6,7 @@ const path = require('path');
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      src: path.resolve('src/'),
-    },
+  alias: {
+    '/@/': path.resolve(__dirname, './src')
   }
 })
