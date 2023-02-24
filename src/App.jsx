@@ -25,13 +25,13 @@ return (
       <BrowserRouter>
       <Navbar/> 
         <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Modelos" element={<Modelos />} />
-          <Route path="/LifeStyle" element={<LifeStyle />} />
-          <Route path="/Moshelim" element={<Molsheim />} />
-          <Route path="/Champagne" element={<Champagne />} />
-          <Route path="/Relogio" element={<Relogio />} />
-          <Route path="/PoliticaPrivacidade" element={<PoliticaPrivacidade />} />
+          <Route path="/Home" exact element={<Home />} />
+          <Route path="/Modelos" exact element={<Modelos />} />
+          <Route path="/LifeStyle" exact element={<LifeStyle />} />
+          <Route path="/Moshelim" exact element={<Molsheim />} />
+          <Route path="/Champagne" exact element={<Champagne />} />
+          <Route path="/Relogio" exact element={<Relogio />} />
+          <Route path="/PoliticaPrivacidade" exact element={<PoliticaPrivacidade />} />
         </Routes>
         </BrowserRouter>
     </div>
