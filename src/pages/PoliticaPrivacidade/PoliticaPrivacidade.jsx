@@ -3,13 +3,13 @@ import React from 'react';
 import Footer from '/src/components/layout/Footer/Footer';
 
 // Estilização SCSS
-import '/src/pages/PoliticaPrivacidade/PoliticaPrivacidade.css';
+import './PoliticaPrivacidade.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleInfo, faLink, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 // LOGO 
-import logoBugatti from '/src/assets/logo.svg';
+import logoBugatti from '../../assets/logo.svg';
 
 
 function PoliticaPrivacidade() {

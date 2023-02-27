@@ -6,8 +6,8 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // ESTILIZAÇÃO 
-import '/src/components/layout/ModelosSlide/ModelosSlide.css';
-import '/src/components/layout/StyleTextos.css';
+import '../../layout/ModelosSlide/ModelosSlide.css';
+import '../../layout/StyleTextos.css';
 import 'swiper/css';
 
 

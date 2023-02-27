@@ -1,4 +1,4 @@
-import '/src/components/layout/Footer/Footer.css';
+import '../../layout/Footer/Footer.css';
 
 function Footer (){
   return (

@@ -1,5 +1,5 @@
-import '/src/components/layout/StyleTextos.css';
-import '/src/components/layout/SectionMolsheim/SectionMolsheim.css';
+import '../../layout/StyleTextos.css';
+import '../../layout/SectionMolsheim/SectionMolsheim.css';
 
 function SectionMolsheim (){
   return(

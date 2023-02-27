@@ -1,5 +1,5 @@
-import '/src/components/layout/SectionUniversoBugatti/SectionUniversoBugatti.css';
-import '/src/components/layout/StyleTextos.css';
+import '../../layout/SectionUniversoBugatti/SectionUniversoBugatti.css';
+import '../../layout/StyleTextos.css';
 
 function SectionUniversoBugatti() {
   return (

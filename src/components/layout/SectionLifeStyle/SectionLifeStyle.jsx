@@ -1,5 +1,5 @@
-import '/src/components/layout/SectionLifeStyle/SectionLifeStyle.css';
-import '/src/components/layout/StyleTextos.css';
+import '../../layout/SectionLifeStyle/SectionLifeStyle.css';
+import '../../layout/StyleTextos.css';
 
 function SectionLifeStyle() {
   return (

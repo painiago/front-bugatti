@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Estilização
-import '/src/components/layout/NavBar/NavBar.css';
+import '../../layout/NavBar/NavBar.css';
 
 import { Link } from 'react-router-dom';
 

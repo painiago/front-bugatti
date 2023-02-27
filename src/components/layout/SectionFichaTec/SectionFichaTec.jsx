@@ -1,5 +1,5 @@
-import '/src/components/layout/SectionFichaTec/SectionFichaTec.css';
-import '/src/components/layout/StyleTextos.css';
+import '../../layout/SectionFichaTec/SectionFichaTec.css';
+import '../../layout/StyleTextos.css';
 
 
 

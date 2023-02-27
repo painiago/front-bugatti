@@ -1,12 +1,12 @@
 // NAVEGAÇAO
-import Navbar from '/src/components/layout/Navbar/Navbar';
+import Navbar from './components/layout/Navbar/Navbar';
 
 // Router
 import {BrowserRouter, Router, Routes,Route } from 'react-router-dom'
 
 
 // STYLE
-import '/src/App.css';
+import './App.css';
 
 
 // PAGES

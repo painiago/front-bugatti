@@ -1,7 +1,7 @@
 // CSS
-import '/src/components/layout/Header/Header.css';
-import '/src/components/layout/ConfigColorsOthers.css';
-import '/src/components/layout/StyleTextos.css';
+import '../../layout/Header/Header.css';
+import '../../layout/ConfigColorsOthers.css';
+import '../../layout/StyleTextos.css';
 
 
 function Header (){

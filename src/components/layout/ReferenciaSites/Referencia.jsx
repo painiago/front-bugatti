@@ -1,5 +1,5 @@
 // CSS
-import '/src/components/layout/ReferenciaSites/Referencia.css'
+import '../../layout/ReferenciaSites/Referencia.css'
 
 // FontAwesomeIcon
 
