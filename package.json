@@ -2,7 +2,6 @@
   "name": "site-bugatti-front",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://painiago.github.io/front-bugatti/",
   "scripts": {
     "test": "react-scripts test",
     "dev": "vite",
