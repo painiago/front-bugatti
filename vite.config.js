@@ -5,9 +5,7 @@ const path = require('path');
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/bugatt-fornt',
   plugins: [react()],
-  alias: [
-    { find: '@', replacement: '.' },
 
-  ]
 })
