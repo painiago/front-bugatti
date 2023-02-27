@@ -7,10 +7,7 @@ const path = require('path');
 export default defineConfig({
   plugins: [react()],
   alias: [
-    { find: '@/', replacement: '/src' },
-    { find: '@/', replacement: '/src/assets' },
-    { find: 'views', replacement: '/src/views' },
-    { find: 'components', replacement: '/src/components' },
+    { find: '@', replacement: '.' },
 
   ]
 })
