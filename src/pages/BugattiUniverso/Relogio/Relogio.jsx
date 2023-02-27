@@ -1,5 +1,5 @@
 // CSS
-import '/src/pages/BugattiUniverso/Relogio/Relogio.css';
+import './Relogio.css';
 import Footer from '/src/components/layout/Footer/Footer';
 
 // CSS FONTE TEXTOS

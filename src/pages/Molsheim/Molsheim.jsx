@@ -1,7 +1,7 @@
 import Footer from '/src/components/layout/Footer/Footer';
 // ESTLIZAÇÃO
 import '/src/components/layout/StyleTextos.css';
-import '/src/pages/Molsheim/Molsheim.css'
+import './Molsheim.css'
 
 // ROOT CONFIG COR AND FONT
 import '/src/components/layout/ConfigColorsOthers.css';

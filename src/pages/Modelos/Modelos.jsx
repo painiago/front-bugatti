@@ -1,4 +1,4 @@
-import '/src/pages/Modelos/Modelos.css'
+import './Modelos.css'
 // Footer
 import Footer from '/src/components/layout/Footer/Footer';
 

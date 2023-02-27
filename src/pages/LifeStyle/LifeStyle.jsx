@@ -3,7 +3,7 @@ import Footer from '/src/components/layout/Footer/Footer';
 
 
 // ESTILIZAÇÃO
-import '/src/pages/LifeStyle/LifeStyle.css';
+import './LifeStyle.css';
 import '/src/components/layout/StyleTextos.css';
 
 // IMPORTAÇÃO DE IMAGEM
